@@ -1,0 +1,57 @@
+body{
+    background-image:url("https://st4.depositphotos.com/2051931/40998/i/450/depositphotos_409981762-stock-photo-rough-patterned-white-cement-wall.jpg")
+}
+
+#ab {
+    width:800px;
+    background-color: fuchsia;
+    font-size: 60px;
+    padding: 50px 35% 50px 35% ; 
+    border-radius:50px; 
+    border: 150px;
+    color:dodgerblue;
+    border: 3px solid black;
+}
+nav{
+    width: 2000px;
+    margin-left :5% ;
+    
+    background-color: darksalmon;
+    border-radius: 10px;
+    font-size:80px;
+    border:black solid 4px;
+}
+a{
+    margin-right:100px;
+    border:black solid 4px;
+    border-radius: 12px;
+}
+#hi{
+    background-color: rgb(183, 243, 220);
+}
+img{
+    border:ridge black 6px;
+    border-radius: 100px;
+    background-color: lightpink;
+}
+
+p{
+    
+    color:darkred;
+    font-size: 50px;
+}
+#asd{
+    width:20%;
+    color:white;
+    background:green;
+    padding:10px;
+    border-radius: 8px;
+}
+footer{
+    width: 3000px;
+    
+    background-color: rgb(217, 174, 245);
+    border-radius: 10px;
+    font-size:80px;
+    border:black solid 4px;
+}
