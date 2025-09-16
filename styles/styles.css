@@ -32,12 +32,12 @@ a{
 img{
     border:ridge black 6px;
     border-radius: 100px;
-    background-color: lightpink;
+    background-color: rgb(87, 172, 136);
 }
 
 p{
-    
-    color:darkred;
+    text-align: center;
+    color:rgb(144, 248, 158);
     font-size: 50px;
 }
 #asd{

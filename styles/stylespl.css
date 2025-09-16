@@ -1,4 +1,17 @@
 body{
     background-image: url("");
-    font-size: 30px;
+    font-size: 30px; 
+    line-height: 1.5;
+}
+
+p
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    /* font-weight: 900; */
+    font-style: italic;
+    letter-spacing: 4px;
+}
+#ma{
+    width:50vw;
 }
