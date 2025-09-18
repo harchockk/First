@@ -3,15 +3,50 @@ body{
     font-size: 30px; 
     line-height: 1.5;
 }
-
+a:link {color: aquamarine;}
+a:hover{ color: coral;}
+a:focus-visible{outline: 2px solid blueviolet}
 p
 {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+   
     /* font-weight: 900; */
     font-style: italic;
     letter-spacing: 4px;
+    overflow-wrap: break-word;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border:1px solid rgb(242, 255, 251);
+    text-align: center;
 }
+
 #ma{
     width:50vw;
+}
+
+img {
+    object-fit: cover;
+}
+
+a{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+ul li::marker {
+    margin-left: 20px;
+    content: "👨🏾‍🦳";
+    color: rgb(105, 52, 5);
+    font-size: 1.2em;
+}
+
+
+ol{
+    list-style-type: lower-greek;
+}
+
+footer{
+
+    background:linear-gradient(circle,blue,purple,green);
 }

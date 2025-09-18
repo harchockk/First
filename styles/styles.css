@@ -50,7 +50,7 @@ p{
 footer{
     width: 3000px;
     
-    background-color: rgb(217, 174, 245);
+    background:radial-gradient(grey,rgb(243, 226, 132),rgb(251, 173, 47));
     border-radius: 10px;
     font-size:80px;
     border:black solid 4px;
