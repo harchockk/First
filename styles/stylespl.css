@@ -40,7 +40,16 @@ ul li::marker {
     color: rgb(105, 52, 5);
     font-size: 1.2em;
 }
-
+.block
+{
+    display: block;
+    width: 400px;
+    height:120px;
+    background-color: blanchedalmond;
+    overflow-wrap: break-word;
+    padding:10px;
+    border:rgb(205, 154, 240) solid 4px;
+}
 
 ol{
     list-style-type: lower-greek;
@@ -50,3 +59,28 @@ footer{
 
     background:linear-gradient(circle,blue,purple,green);
 }
+
+.inline
+{
+    display:inline;
+    color:blue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.inlock{
+    display:inline-block;
+    width: 400px;
+    height:60px;
+    color: rgb(242, 49, 242);
+    background:radial-gradient(grey,rgb(243, 226, 132),rgb(251, 173, 47));
+    padding:10px;
+    border:3px solid rgb(45, 143, 113);
+    border-radius: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+/* .fixed-box{
+   
+    background:bisque;
+    border: 2px solid black;
+    padding: 10px;
+} */
