@@ -3,24 +3,26 @@ body{
 }
 
 #ab {
-    width:800px;
-    background-color: fuchsia;
-    font-size: 60px;
+    text-align: center;
+    background-color: rgba(255, 0, 255, 0.678);
+    font-size: 3vw;
     padding: 50px 35% 50px 35% ; 
-    border-radius:50px; 
+    border-radius:50px;
+    margin-bottom: 0; 
+    margin-top: 0;
     border: 150px;
     color:dodgerblue;
     border: 3px solid black;
 }
 nav{
-    font-size: 80px;
+    font-size: 3vw;
     display:inline-block;
-    background:darksalmon ;
+    background:rgba(233, 150, 122, 0.541) ;
     color:white;
     text-decoration: none;
     padding: 10px 20px;
-    margin-right: 8px;
-    border-radius: 6px;
+    margin-right: 4px;
+    border-radius: 3px;
     font-weight:bold ;
     transition: background 0.3s;
     /* width: 2000px;
@@ -32,8 +34,8 @@ nav{
     border:black solid 4px; */
 }
 a{
-    margin-right:100px;
-    border:black solid 4px;
+    margin-right:50px;
+    border:rgba(0, 0, 0, 0.507) solid 4px;
     border-radius: 12px;
 }
 #hi{
@@ -68,10 +70,103 @@ footer{
 .menu-buton
 {
     text-decoration: none;
-    background: linear-gradient(darksalmon,rgb(134, 134, 233),darksalmon);
-    margin-right:100px;
-    border:black solid 4px;
+    background: linear-gradient(rgba(233, 150, 122, 0.486),rgba(134, 134, 233, 0.582),rgba(233, 150, 122, 0.493));
+    margin-right:50px;
+    border:black solid 0.3vw;
     border-radius: 12px;
     display: inline-block;
 
+}
+.mena{
+    /* position: relative;
+    top:20px;
+    left:30px;  */
+    /* обычный сдвиг */
+
+    position: fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    background:none;
+    text-align: center;
+    font-weight: bold;
+    z-index:10;
+}
+
+.parent{
+    font-size: 80px;
+    position: relative;
+    top:200px;
+    left:200px;
+    height: 300px;
+    width:400px;
+    background:blue;
+}
+
+.child{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: chartreuse;
+}
+
+.row
+{
+    display: flex;
+    gap:12px;
+}
+
+.box
+{
+    width: 80px;
+    height: 80px;
+    background: cyan;
+    border: 2px solid black;
+
+}
+
+.abs{
+    position: absolute;
+    top:0;
+}
+
+.card
+{
+    position: relative;
+    width:160px;
+    height: 100px;
+    padding:16px;
+    background: darkolivegreen;
+    border:2px solid black;
+    border-radius: 10px;
+    color:darkred;
+}
+
+.badge 
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: darkgrey;
+    color: darkred;
+    padding: 4px 8px;
+    border-radius: 9999999999px;
+}
+
+.scroll-top
+{
+    position: fixed;
+    bottom: 1vw;
+    right: 1vw;
+    border: 0.3vw solid rgb(190, 190, 255);
+    background: rgb(190, 190, 255);
+    color: rgb(253, 253, 253);
+    padding: 0.3vw 0.4vw;
+    border-radius: 50%;
+    font-size: 1.5vw;
+    cursor:-webkit-grab;
+}
+.scroll-top:hover{
+    color:rgb(190, 190, 255);
+    background: rgb(253, 253, 253);
 }
