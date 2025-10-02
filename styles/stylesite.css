@@ -55,7 +55,7 @@ header
      color: coral;
      background: linear-gradient(rgb(235, 178, 23),rgb(241, 18, 18),rgb(32, 97, 236));
 }
-img{
+/* img{
     display: inline-block;
     width:20vw;
     height: 20vw;
@@ -63,7 +63,110 @@ img{
     border:cyan solid 4px;
     border-radius: 10px;
     overflow-wrap: break-word;
+} */
+
+.boxer
+{
+    position: relative;
+    background: rgb(149, 149, 246);
+    width:80vw;
+    height: 50vw;
+}
+
+#qpho
+{
+    width: 20vw;
+    height: 20vw;
+position: absolute;
+top:0;
+left: 0;
+  
+}
+
+#wpho
+{
+    width: 20vw;
+    height: 20vw;
+position: absolute;
+top:0;
+left: 26vw;
+}
+
+#epho
+{
+    width: 20vw;
+    height: 20vw;
+position: absolute;
+top:0;
+left: 51vw;
+}
+
+#rpho
+{
+    width: 20vw;
+    height: 20vw;
+position: absolute;
+bottom:0;
+left: 0;
+}
+#tpho
+{
+    width: 20vw;
+    height: 20vw;
+position: absolute;
+bottom:0;
+right: 26vw;
 }
 
 
+.con{
+
+    display: flex;
+    width:90vw;
+    border: 2px solid black;
+    background: darkcyan;
+    gap:10px;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: stretch;
+}
+
+.item
+{
+    background: darkolivegreen;
+    border: 1px solid rgb(46, 46, 134);
+    padding: 20px;
+    font-size: 20px;
+    color: darkred;
+}
+
+.special
+{
+    order: -1;
+    background:darkred;
+    color: darkolivegreen;
+flex-basis: 500px;
+    text-align: center;
+}
+.product{
+    display: flex;
+    gap: 20px;
+    background: rgb(232, 174, 255);
+}
+
+.card{
+    flex: 1 1 150px;
+    background: rgb(197, 255, 255);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.big{
+    flex-basis: 300px;
+    flex-grow: 2;
+    align-self: flex-end;
+    background: rgb(138, 136, 255);
+    flex-wrap: wrap;
+}
 
