@@ -2,8 +2,9 @@
 <html lang="ru">
 <head>
     <meta name="viewport" content="width=device-width, iniyial scale=1.0">
-    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="styles\page.css">
     <link rel="stylesheet" href="reset.css">
+    
     <title>Document</title>
 </head>
 <body>
@@ -169,6 +170,9 @@
 
     <label class="auth_label">Email
         <input class="auth_input" name="email" type="email" placeholder="you@mail.com" required>
+        <button class="form_button form_button--ghost" type="button" id="check">
+            Чек
+        </button>
     </label>
 
     <label class="auth_label">Пароль
@@ -177,6 +181,18 @@
 
 
     <button class="ayth_btn">Создать</button>
-  </form>
+
+    <label class="option">
+        <input class="f_check" name="agree" type="checkbox" id="agree" value="yes">
+        <span class="f_option">Согласен</span>
+    </label>
+
+    <form class="form" action="upload" method="POST" enctype="multipart/form-data">
+        <label class="option">
+            <span class="f_option_text">Аватар</span>
+            <input class="f_file"  type="file" name="avatar" accept="image/*">
+        </label>
+        <button class="form_button form_button--primary" type="submit">Загрузить</button>
+    </form>
 </body>
 </html>
