@@ -120,9 +120,10 @@ right: 26vw;
 
 
 .con{
+    margin:50px;
 
     display: flex;
-    width:90vw;
+    width:85vw;
     border: 2px solid black;
     background: darkcyan;
     gap:10px;
@@ -133,11 +134,15 @@ right: 26vw;
 
 .item
 {
-    background: darkolivegreen;
-    border: 1px solid rgb(46, 46, 134);
+    margin: 5px;
+    background: rgb(211, 211, 211);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 12px;
     padding: 20px;
     font-size: 20px;
     color: darkred;
+    height: 220px;
+    width: 220px;
 }
 
 .special
