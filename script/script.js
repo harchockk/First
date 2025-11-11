@@ -93,4 +93,90 @@ for (let index = 0; index < colors.length; index++) {
 
 console.log(`Мой любимый цвет - ${colors[0]}!`)
 
+let buttonPressed = false;
 
+if(buttonPressed)
+{
+    console.log("Кнопка нажата");
+}
+
+let Adult = true;
+let aAdult = false;
+
+let nummm = -10;
+
+if(nummm > 0)
+{
+    console.log("Позитвное")
+}
+else{
+    console.log("Негативное")
+}
+let grader = ["Отлично","Хорошо","Норм","Пойдёт","лох","лох"];
+let grade = 3;
+
+let ber = 0;
+for (let index = 10  ; index >=0 ; index = index - 2) {
+    
+    if(grade>=index)
+    {
+        console.log(grader[ber])
+        break;
+    }
+    else{
+         ber++
+    }
+}
+
+
+let agew = 20;
+let hasTicket = true;
+
+
+if(agew >= 18 && hasTicket)
+{
+    console.log("Можно войти");
+}
+else{
+    console.log("Пчёл отсюда")
+}
+
+
+let day = 3;
+
+switch(day) {
+
+    case 1:
+        console.log("Monday")
+        break;
+    default:
+        console.log("Фтщерук щт")
+}
+
+
+let string="admin";
+
+switch(string) {
+    case "admin":
+        console.log("ПРиветствую господ бог");
+        break;
+    case "user":
+        console.log("ПРиветствую раб божий");
+        break;
+    case "guest":
+        console.log("Приветствую пупник");
+        break;
+    default:
+        console.log("Ты не пройдёшь");
+}
+
+
+let isOnline = true;
+
+let status = isOnline ? "В сети" : "Не в сети";
+console.log(status);
+
+let isready = true;
+
+let sratus = isready ? "Готов" : "Не готов";
+console.log(sratus);
