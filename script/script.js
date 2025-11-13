@@ -182,7 +182,122 @@ let sratus = isready ? "Готов" : "Не готов";
 console.log(sratus);
 
 
-for(let i = 1; i <9; i++)
+for(let i = 1; i <10; i++)
 {
-    console.log(i + " * " + (10-i) + " = " + i*(10-i) + "   ");
+    for(let ii=1; ii<10;ii++)
+    {
+        console.log(i + " * " + ii + " = " + i*ii + "   ");
+    }
+}
+
+
+for(let i = 5;i<16;i++)
+{
+    console.log(i);
+}
+
+let masser = [];
+
+for(let i = 0;i<10;i++)
+{
+    masser[i] = Math.round((Math.random()*1000)/100);
+    console.log('array random',masser[i])
+}
+
+let t = 1;
+
+while(t<=3)
+{
+    console.log("Шаг" +t);
+    t++;
+}
+
+
+
+let yu = 1;
+
+do {
+    console.log(yu);
+    yu = yu+1;
+}
+while(yu<10);
+
+
+let passw;
+
+do{
+    passw = prompt("Введите пароль: ");
+}while(passw !=="1234");
+
+alert("ПАроль принят");
+
+
+let passwr;
+
+do{
+    passwr = prompt("Введите пароль 2: ");
+}while(passwr !=="5");
+
+alert("ПАроль принят");
+
+
+let fru = ["apple","banan","lemon"];
+
+for(let frum of fru)
+{
+    console.log(frum);
+}
+
+for(let ertyui of "Prever")
+{
+    console.log(ertyui);
+}
+
+
+let frul = ["applezilla","bananzilla","lemonzilla"];
+
+for(let fruml of frul)
+{
+    console.log(fruml);
+}
+
+let person = {name:"urOchka", age:15, city:"Мiнск"};
+
+
+for(let key in person)
+{
+    console.log(key +": " + person[key]);
+}
+
+for(let i = 1;i<=10;i++)
+{
+if(i % 2 ===0) continue;
+console.log(i);
+}
+
+
+let dfghjk = 0;
+for( let i =0;i<=5;i++)
+{
+    dfghjk = dfghjk +i;
+}
+console.log(dfghjk);
+
+
+
+let ananas ="ananas ananasil ananasinu";
+let dfghjll = 0;
+for(let hy of ananas)
+{
+    if(hy ==="a")dfghjll++;
+}
+
+console.log(ananas+'    '+dfghjll);
+
+
+let n = 15;
+
+for(let i = 0;i<n;i++)
+{
+    console.log(i*i)
 }
