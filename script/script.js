@@ -180,3 +180,9 @@ let isready = true;
 
 let sratus = isready ? "Готов" : "Не готов";
 console.log(sratus);
+
+
+for(let i = 1; i <9; i++)
+{
+    console.log(i + " * " + (10-i) + " = " + i*(10-i) + "   ");
+}
