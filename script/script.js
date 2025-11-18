@@ -337,10 +337,6 @@ sur(1,5);
 
 
 
-button.onclick = function()
-{
-    console.log("Клик");
-}
 
 const sqare = x => x*x;
 
@@ -354,6 +350,48 @@ const obj = {
 obj.show();
 
 
-button.addEventListener("click", () =>{
-    alert.log("Нажали");
-});
+setTimeout(() => {
+    console.log("ПРошло 2 сек");
+}, 2000);
+
+let nameg = "mыkola";
+
+function saykh()
+{
+    alert('Hi ' + nameg);
+    
+}
+
+nameg = "Ыrina";
+
+saykh();
+
+
+function saykhn()
+{
+    alert('Ura ');
+    
+}
+
+saykhn();
+
+function sumtr (a,b,c)
+{
+    console.log(a+b+c);
+}
+
+sumtr(15,3,8);
+
+
+const sqarer = (x,y) => x*y;
+
+alert(sqarer(1,4));
+
+
+
+const suds = () =>
+{
+    console.log('Hello');
+};
+
+suds();
