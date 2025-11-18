@@ -301,3 +301,59 @@ for(let i = 0;i<n;i++)
 {
     console.log(i*i)
 }
+
+
+function showM(from, text)
+{
+    alert(from+ ', '+ text )
+}
+
+showM('Privet', 'ueiw');
+
+function sum (a,b){
+    console.log(a +b);
+}
+
+function sume (a,b){
+    return (a +b);
+}
+
+let res = sume(1, 2);
+alert(res);
+
+const sayh = function()
+{
+    console.log("Priv")
+}
+
+
+const gener = () => {
+    const sumf = (a,b) => a+b;
+    return sumf;
+}
+
+const sur = gener();
+sur(1,5);
+
+
+
+button.onclick = function()
+{
+    console.log("Клик");
+}
+
+const sqare = x => x*x;
+
+const obj = {
+    name: "Test",
+    show() {
+        console.log(this.name);
+    }
+};
+
+obj.show();
+
+
+button.addEventListener("click", () =>{
+    alert.log("Нажали");
+});
